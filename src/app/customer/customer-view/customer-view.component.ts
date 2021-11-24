@@ -20,6 +20,7 @@ export class CustomerViewComponent implements OnInit {
     this.customers$ = this.store.pipe(select(selectCustomers))
   }
 
+  //test
   ngOnInit(): void {
   }
 
